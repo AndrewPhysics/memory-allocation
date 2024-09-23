@@ -21,7 +21,7 @@ void one_dim_array_with_dinamic_memory_allocation()
 
 void two_dim_array_with_half_dinamic_memory_allocation() 
 {
-	const int line_size = 4;//statikus
+	const int line_size = 4;//static
 	int line_count;//dinamic
 	cout << "Please type in the line count: ";
 	cin >> line_count;
